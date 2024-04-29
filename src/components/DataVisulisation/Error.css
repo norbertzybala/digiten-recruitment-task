@@ -1,0 +1,7 @@
+.error_message_component {
+    background-color: #ea7a6b;
+    color: #87231e;
+    text-align: center;
+    padding: 16px;
+    border: 2px solid #87231e;
+}

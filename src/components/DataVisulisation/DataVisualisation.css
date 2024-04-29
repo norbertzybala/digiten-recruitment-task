@@ -1,0 +1,66 @@
+.data-visualisation {
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  padding: 1.2em;
+}
+
+.data-visualisation__top_bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding: 0.5em 2em;
+}
+
+.data-visualisation__coin_info_title {
+  font-size: 1em;
+  color: #666666;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.data-visualisation__coin_info_change {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  font-size: 0.8em;
+  bottom: -8px;
+
+  svg {
+    width: 1em;
+    padding-left: 0.3em;
+  }
+}
+
+.data-visualisation__coin_info_change-text-red {
+  color: #ff3333;
+}
+
+.data-visualisation__coin_info_change-text-green {
+  color: #49ab81;
+}
+
+.data-visualisation__coin_info_price {
+  font-size: 1.5em;
+  margin: 0.2em;
+}
+
+.data-visualisation__dropdowns_group {
+  display: flex;
+  gap: 1em;
+}
+
+.data-visualisation__dropdown-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .data-visualisation__top_bar {
+    padding: 0.5em;
+    flex-direction: column;
+    gap: 1em;
+  }
+}

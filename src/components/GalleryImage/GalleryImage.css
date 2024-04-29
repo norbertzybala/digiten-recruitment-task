@@ -1,0 +1,38 @@
+.gallery-image {
+  background-color: #fff;
+}
+
+.gallery-image__heading {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #222;
+  padding: 1em;
+  text-align: center;
+}
+
+.gallery-image__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 0.7em;
+  padding: 1em;
+}
+
+.gallery-image__item {
+  height: 200px;
+  flex-grow: 1;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.gallery-image__item img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.gallery-image__item img:hover {
+  transform: scale(1.02);
+}
