@@ -7,7 +7,7 @@ import "./GalleryImage.css";
 
 export default function GalleryImage() {
   const { response: galleryImages, loading, error } = useAxios(
-    "https://api.unsplash.com/photos/?client_id=sH2liCvTUrU3DevFjrr_c-7pTWiMZ3tXIpWA7EAuB3M&per_page=20",
+    "https://api.unsplash.com/photos/?client_id=sH2liCvTUrU3DevFjrr_c-7pTWiMZ3tXIpWA7EAuB3M&per_page=18&order_by=popular",
     false,
   );
 
